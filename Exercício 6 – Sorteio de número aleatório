@@ -1,0 +1,29 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class Exercicio6 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Random rand = new Random();
+
+        System.out.print("Digite o primeiro número inteiro: ");
+        int num1 = sc.nextInt();
+
+        System.out.print("Digite o segundo número inteiro: ");
+        int num2 = sc.nextInt();
+
+        int min = Math.min(num1, num2);
+        int max = Math.max(num1, num2);
+
+        int sorteio = rand.nextInt(max - min + 1) + min;
+        System.out.println("Número sorteado: " + sorteio);
+
+        if(sorteio % 2 == 0) {
+            System.out.println("🔵 O número é par.");
+        } else {
+            System.out.println("🟠 O número é ímpar.");
+        }
+
+        sc.close();
+    }
+}
