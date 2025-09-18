@@ -85,4 +85,4 @@ Sorteia um número entre dois inteiros:
 
 1. Clone o repositório:  
 ```bash
-git clone https://github.com/esdrasfonsecag-code/psc-lista-03-2025.git
+https://github.com/esdrasfonsecag-code/psc-lista-03-2025.git
