@@ -80,9 +80,3 @@ Sorteia um número entre dois inteiros:
 </details>
 
 ---
-
-## 🚀 Como executar  
-
-1. Clone o repositório:  
-```bash
-https://github.com/esdrasfonsecag-code/psc-lista-03-2025.git
